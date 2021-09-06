@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WSL上でvagrantを使いたい話"
-date:   2021-09-03 21:00:00 +0900
+date:   2021-09-04 21:00:00 +0900
 categories: enviroment
 ---
 
