@@ -27,7 +27,7 @@ WSL2用のLinuxディストリビューションは選択肢が限られてい�
 ```
 Windows10
 Ubuntu20.04LTS on WSL
-VirtualBox 6.1.14
+VirtualBox 6.1.14 -> 6.1.26
 Vagrant 2.2.9
 ```
 
@@ -70,7 +70,8 @@ vagrant up
 
 default: SSH auth method: private key
 から進まない・・・。  
-(近日対応予定)
+
+-> VirtualBoxを6.1.14から6.1.26にアップデートしたら解決。
 
 ---
 
