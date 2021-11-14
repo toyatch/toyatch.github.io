@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "保守性を計測できるか？"
+title:  "gitのマージ履歴解析"
 date:   2021-09-20 10:05:00 +0900
 categories: git
 ---
