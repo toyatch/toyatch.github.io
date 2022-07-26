@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "WSL上でvagrantを使いたい話"
+title:  "WSL上でVagrantを使いたい話"
 date:   2021-09-04 21:00:00 +0900
-tags: enviroment
+tags: WSL Vagrant
 ---
 
 WindowsがWSL2に対応して以来、自宅用PCではWSL2を使っています。

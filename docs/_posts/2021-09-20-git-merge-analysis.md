@@ -2,7 +2,7 @@
 layout: post
 title:  "gitのマージ履歴解析"
 date:   2021-09-20 10:05:00 +0900
-tags: git
+tags: tools
 ---
 
 ## 背景

@@ -2,7 +2,7 @@
 layout: post
 title:  "JekyllでGitHub Pagesにblogを開設した手順"
 date:   2021-08-29 20:35:00 +0900
-tags: jekyll github
+tags: 環境構築
 ---
 
 個人的な技術の学習メモや考えた事などの備忘録としてGitHub Pagesに(シンプルに)記事を残しておきたい。
