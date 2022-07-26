@@ -2,7 +2,7 @@
 layout: post
 title:  "VirualBox + VagrantのVMのディスクサイズを変更するのにハマった話"
 date:   2022-06-06 23:42:00 +0900
-tags: Vagrant VirtualBox
+tags: Vagrant VirtualBox 環境構築
 ---
 
 ## やりたいこと
