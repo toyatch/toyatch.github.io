@@ -2,7 +2,7 @@
 layout: post
 title:  "VirualBox + VagrantのVM(centos)のディスクサイズを変更する方法"
 date:   2022-07-02 17:53:00 +0900
-tags: Vagrant VirtualBox 開発環境
+tags: Vagrant VirtualBox 環境構築
 ---
 
 ## やりたいこと

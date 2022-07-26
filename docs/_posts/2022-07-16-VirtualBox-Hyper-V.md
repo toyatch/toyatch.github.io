@@ -2,7 +2,7 @@
 layout: post
 title:  "ハイパーバイザプラットフォームの有効化が中途半端でVirtualBoxが重くなっていたので対策した"
 date:   2022-07-16 11:03:00 +0900
-tags: VirtualBox 開発環境
+tags: VirtualBox 環境構築
 ---
 
 ### 前提
