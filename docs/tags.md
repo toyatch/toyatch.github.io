@@ -13,7 +13,9 @@ permalink: /tags/
     {% for post in tag[1] %}
       <li>
         <span class='post-meta'>
-          {{post.date | date_to_string: "ordinal", "US" }}
+          {{ post.date | date_to_string: "ordinal", "US" }}
+          -
+          {{ post.tags | join: '/' }}
         </span>
         <a class='post-link' href="{{post.url}}">
          {{ post.title }}
