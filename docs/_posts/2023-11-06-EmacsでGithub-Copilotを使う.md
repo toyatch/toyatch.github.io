@@ -29,16 +29,25 @@ straight.elのインストールがうまくいかないので、gitから直接
 cd ~/.emacs.d
 git clone https://github.com/zerolfx/copilot.el
 ```
+## package追加
+scratchなどで
+
+```elisp
+;; copilot
+(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(package-refresh-contents)
+
+(package-install 'editorconfig)
+(package-install 'dash)
+(package-install 's)
+```
+
 ## .emacs.d/init.el
 
 以下を追加
 
 ```elisp
 ;; copilot
-(package-install 'editorconfig)
-(package-install 'dash)
-(package-install 's)
-
 (add-to-list 'load-path "~/.emacs.d/copilot.el")
 (require 'copilot)
 (use-package copilot
@@ -50,6 +59,12 @@ git clone https://github.com/zerolfx/copilot.el
         ("M-n" . copilot-next-completion)
         ("TAB" . copilot-accept-completion)))
 ```
+
+なお、Windowsの場合は
+```
+  (setq copilot-node-executable "node.exe")
+```
+でよい
 
 # 使い方
 
